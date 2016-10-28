@@ -14,5 +14,16 @@ function checkTime(i) {
   return i;
 }
 
+// Name
 
+var nameInput = $("#nameInput");
+
+nameInput.keydown(function(e) {
+  if (e.which == 13) {
+    getNotesForName(nameInput.val());
+    console.log(nameInput.val());
+    $("#output1").html("");
+    $("#output2").html("");
+  }	
+})
 
