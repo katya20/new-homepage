@@ -14,7 +14,7 @@
   height: 50px;
 }
 
-#name {
+#nameInput {
   opacity: 0.8;
 }
 
@@ -93,7 +93,6 @@ For Later
   font-size: 13px;
 }
 
-
 #todo2 {
   width: 250;
   height: 300px;
@@ -107,7 +106,6 @@ For Later
   float:right
 }
 
-
 #checkBox2 {
   text-decoration: none;
   margin-top: 5px;
@@ -117,7 +115,6 @@ For Later
   width: 225;
   margin-left: inherit;
 }
-
 
 #clear-button-2 {
   background-color: white;
