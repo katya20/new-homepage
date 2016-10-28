@@ -33,3 +33,18 @@ function onNewValue(name, callback) {
     callback(data.val());
   })
 }
+
+function getNotesForName1(name) {  
+  onNewListItem(nameInput.val() + "/1", function(note) {
+    $("#output1").append("<div>" + note + "</div>")
+    $("#output2").append("<div>" + note + "</div>")
+  })
+}
+
+function getNotesForName1(name) {  
+  onNewListItem(nameInput.val() + "/1", function(note) {
+    $("#output1").append("<div>" + note + "</div>")
+    $("#output2").append("<div>" + note + "</div>")
+  })
+}
+
