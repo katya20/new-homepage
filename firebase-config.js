@@ -41,7 +41,7 @@ function getNotesForName1(name) {
 }
 
 function getNotesForName2(name) {  
-  onNewListItem(nameInput.val() + "/1", function(note) {
+  onNewListItem(nameInput.val() + "/2", function(note) {
     $("#output2").append("<div>" + note + "</div>")
   })
 }
