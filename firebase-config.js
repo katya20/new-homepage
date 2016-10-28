@@ -29,8 +29,7 @@ function deleteValue(name) {
 }
 
 function onNewValue(name, callback) {	
-  store.child("vars").child(name).on("value", function(data) 
-    console.log("hi");
-//    callback(data.val());
+  store.child("vars").child(name).on("value", function(data) {		
+    callback(data.val());
   })
 }
