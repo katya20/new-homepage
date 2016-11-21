@@ -23,10 +23,14 @@ nameInput.keydown(function(e) {
 //    getNotesForName1(nameInput.val());
 //    getNotesForName2(nameInput.val());
     console.log("hi");
+    e.preventDefault();
 //    $("#output1").html("");
 //    $("#output2").html("");
   }	
+  
 })
+
+
 
 // To Do List (today)
 
