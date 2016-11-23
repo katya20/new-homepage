@@ -50,7 +50,7 @@ input1.keydown(function(e) {
 onNewListItem(nameInput.val() + "1", function(value) {
   $("#output1").append("<div>" + value + "</div>")
   console.log(value);
-  
+  $("#output1").append("<input type= checkbox>" + value + "</div>")
 }) 
 
 $("#clear-button-1").click(function() {
