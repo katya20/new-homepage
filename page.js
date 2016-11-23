@@ -48,9 +48,9 @@ input1.keydown(function(e) {
 })
 
 onNewListItem(nameInput.val() + "1", function(value) {
-  $("#output1").append("<div>" + value + "</div>");
+  $("#output1").append("<input type="checkbox"><label for="love"> Check if you love this website!</label>"
+    "<div>" + value + "</div>", "<input type="checkbox">");
   console.log(value);
-//  $("#output1").append("<input type="checkbox">");
 }) 
 
 $("#clear-button-1").click(function() {
