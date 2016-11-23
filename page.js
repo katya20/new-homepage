@@ -26,7 +26,7 @@ nameInput.keydown(function(e) {
     e.preventDefault();
     $("#output1").html("");
     $("#output2").html("");
-    $("#greeting").append(nameInput.val());
+    $("#greeting").append(nameInput.val());   
   }	
   
 })
