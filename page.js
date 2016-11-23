@@ -48,8 +48,8 @@ input1.keydown(function(e) {
 })
 
 onNewListItem(nameInput.val() + "1", function(value) {
-  $("#output1").append("<input type="checkbox"><label for="love"> Check if you love this website!</label>"
-    "<div>" + value + "</div>", "<input type="checkbox">");
+  $("#output1").append("<input type="checkbox" id="checkbox"><label for="checkbox"> value </label>")
+//    "<div>" + value + "</div>", "<input type="checkbox">");
   console.log(value);
 }) 
 
