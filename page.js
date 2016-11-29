@@ -18,7 +18,6 @@ function checkTime(i) {
 
 var nameInput = $("#nameInput");
 
-nameInput.keydown(function(e) {
   if (e.which == 13) {
     getNotesForName1(nameInput.val());
     getNotesForName2(nameInput.val());
