@@ -47,19 +47,19 @@ input1.keydown(function(e) {
   }
 })
 
-onNewListItem(nameInput.val() + "1", function(value) {
-//  $("#output1").append("<label><input type="checkbox" id="isImportant"> This is important!!</label>")
-//    ("<div>" + value + "</div>");
-  console.log(value);
-}) 
-
-$("#clear-button-1").click(function() {
-  deleteValue(nameInput.val() + "/1")
-  $(".output1").html("");
-});
-
-$(".output1").click(function() {
-  console.log("output1 clicked");
-});
-
-
+//onNewListItem(nameInput.val() + "1", function(value) {
+////  $("#output1").append("<label><input type="checkbox" id="isImportant"> This is important!!</label>")
+////    ("<div>" + value + "</div>");
+//  console.log(value);
+//}) 
+//
+//$("#clear-button-1").click(function() {
+//  deleteValue(nameInput.val() + "/1")
+//  $(".output1").html("");
+//});
+//
+//$(".output1").click(function() {
+//  console.log("output1 clicked");
+//});
+//
+//
