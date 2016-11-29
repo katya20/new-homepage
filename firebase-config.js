@@ -37,14 +37,14 @@ function onNewValue(name, callback) {
 function getNotesForName1(name) {  
   console.log("getNotesForName1")
   onNewListItem(nameInput.val() + "/1", function(note) {
-    $("#output1").append("<div>" + note + "</div>")
+    $(".output1").append("<div>" + note + "</div>")
   })
 }
 
 function getNotesForName2(name) {  
   console.log("getNotesForName2")
   onNewListItem(nameInput.val() + "/2", function(note) {
-    $("#output2").append("<div>" + note + "</div>")
+    $(".output2").append("<div>" + note + "</div>")
   })
 }
 
