@@ -58,5 +58,6 @@ $("#clear-button-1").click(function() {
   $(".output1").html("");
 });
 
+$(".output1").click(function()
 
 
