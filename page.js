@@ -55,8 +55,8 @@ onNewListItem(nameInput.val() + "1", function(value) {
 
 $("#clear-button-1").click(function() {
   deleteValue(nameInput.val() + "/1")
-  $("#output1").html("");
+  $(".output1").html("");
 });
 
-if (
+
 

@@ -52,7 +52,7 @@ column-count: 2;
 /* 
 Today
 */
-#output1 {
+.output1 {
   font-size: 13px;
 }
 
@@ -90,7 +90,7 @@ Today
 For Later
 */
 
-#output2 {
+.output2 {
   font-size: 13px;
 }
 
