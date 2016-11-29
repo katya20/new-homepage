@@ -49,7 +49,7 @@ input1.keydown(function(e) {
 
 onNewListItem(nameInput.val() + "1", function(value) {
 //  $("#output1").append("<label><input type="checkbox" id="isImportant"> This is important!!</label>")
-    ("<div>" + value + "</div>");
+    ("<div class=">" + value + "</div>");
   console.log(value);
 }) 
 
@@ -58,5 +58,5 @@ $("#clear-button-1").click(function() {
   $("#output1").html("");
 });
 
-if 
+if (
 
