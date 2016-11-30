@@ -22,6 +22,11 @@ function newName (e) {
   getNotesForName1(nameInput.val());
   getNotesForName2(nameInput.val());
   console.log(nameInput.val());
+  nameInput.keydown(function(e) {
+    if (e.which == 13) {
+      newName(e);
+    }	 
+  })
   e.preventDefault();
   $("#output1").html("");
   $("#output2").html("");
