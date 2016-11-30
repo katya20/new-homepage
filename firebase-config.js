@@ -24,10 +24,9 @@ function newName (e) {
   console.log(nameInput.val());
   nameInput.keydown(function(e) {
     if (e.which == 13) {
-      newName(e);
+      e.preventDefault();
     }	 
   })
-  e.preventDefault();
   $("#output1").html("");
   $("#output2").html("");
   $("#greeting").append(nameInput.val());   
