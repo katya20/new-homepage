@@ -20,7 +20,7 @@ var nameInput = $("#nameInput");
 
 nameInput.keydown(function(e) {
   if (e.which == 13) {
-    newName();
+    newName(e);
   }	 
 })
 

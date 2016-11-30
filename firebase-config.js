@@ -18,7 +18,7 @@ function popUp() {
 }
 
 
-function newName () {
+function newName (e) {
   getNotesForName1(nameInput.val());
   getNotesForName2(nameInput.val());
   console.log(nameInput.val());
