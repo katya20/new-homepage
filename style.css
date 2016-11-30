@@ -63,7 +63,7 @@ Today
   outline-color: aqua;
   outline-width: medium;
   width: 225;
-  margin-left:auto;
+  position: inherit;
 }
 
 #todo1 {
