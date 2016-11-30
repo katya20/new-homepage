@@ -48,10 +48,6 @@ function getNotesForName2(name) {
   })
 }
 
-g = [1,2,3,4]
 
-onNewListItem("g", function(item) {
-  console.log(item)
-})
 
 
