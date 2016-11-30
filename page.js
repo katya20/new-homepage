@@ -25,7 +25,6 @@ nameInput.keydown(function(e) {
 })
 
 
-
 // To Do List (today)
 
 var input1 = $("#checkbox1")
