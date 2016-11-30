@@ -31,7 +31,7 @@ nameInput.keydown(function(e) {
   
 })
 
-if nameInput
+if (nameInput.val().length==0)
 
 // To Do List (today)
 
