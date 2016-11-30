@@ -8,6 +8,19 @@ firebase.initializeApp(firebaseConfig);
 
 var store = firebase.database().ref("challenge-2")
 
+
+
+function popUp() {
+  var person = prompt("Please enter your name", "Harry Potter");
+
+  if (person != null) {
+    document.getElementById("demo").innerHTML =
+      "Hello " + person + "! How are you today?";
+  }
+}
+
+
+
 function storeValue(name, value) {	
   var obj = {}
   obj[name] = value;

@@ -19,14 +19,6 @@ function checkTime(i) {
 var nameInput = $("#nameInput");
 
 nameInput.keydown(function(e) {
-  function myFunction() {
-    var person = prompt("Please enter your name", "Harry Potter");
-
-    if (person != null) {
-      document.getElementById("demo").innerHTML =
-        "Hello " + person + "! How are you today?";
-    }
-  }
   if (e.which == 13) {
     getNotesForName1(nameInput.val());
     getNotesForName2(nameInput.val());
@@ -48,6 +40,7 @@ var input1 = $("#checkbox1")
 
 
 input1.keydown(function(e) {	
+  myFunction();
   if (e.keyCode == "13") {
     if (nameInput.val().length==0) {
       console.log("no name")
