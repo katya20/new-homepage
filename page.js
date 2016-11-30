@@ -20,13 +20,7 @@ var nameInput = $("#nameInput");
 
 nameInput.keydown(function(e) {
   if (e.which == 13) {
-    getNotesForName1(nameInput.val());
-    getNotesForName2(nameInput.val());
-    console.log(nameInput.val());
-    e.preventDefault();
-    $("#output1").html("");
-    $("#output2").html("");
-    $("#greeting").append(nameInput.val());   
+    newName();
   }	
   
 })
