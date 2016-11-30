@@ -11,8 +11,7 @@ var store = firebase.database().ref("challenge-2")
 
 
 function popUp() {
-  var person = prompt("Please enter your name", "Harry Potter");
-
+  var person = prompt("Please enter your name to save your data :)", "Harry Potter");
   if (person != null) {
     document.getElementById("demo").innerHTML =
       "Hello " + person + "! How are you today?";

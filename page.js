@@ -40,7 +40,7 @@ var input1 = $("#checkbox1")
 
 
 input1.keydown(function(e) {	
-  myFunction();
+  popUp();
   if (e.keyCode == "13") {
     if (nameInput.val().length==0) {
       console.log("no name")
