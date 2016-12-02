@@ -17,9 +17,8 @@
 
 #nameInput {
   opacity: 0.8;
-  position: relative;
-  
-  
+  left: 50%;
+  right: 50%;
 }
 
 #submit {
