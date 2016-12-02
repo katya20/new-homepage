@@ -20,13 +20,14 @@ var nameInput = $("#nameInput");
 
 nameInput.keydown(function(e) {
   if (e.which == 13) {
-    newName(e, nameInput.val());
+    newName(nameInput.val());
+    e.preventDefault();
   }	 
 })
 
-if (nameInput.val().length==0) {
-  console.log("no name")
-  popUp();
+if (nameInput.val().length!==0) {
+  console.log("name is submitted")
+  
 }
 
 

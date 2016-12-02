@@ -14,12 +14,12 @@ function popUp() {
   var person = prompt("Please enter your name to save your data :)", "Harry Potter");
   if (person != null) {
     
-    newName(e, person);
+    newName(person);
   }
 }
 
 
-function newName (e, nameInput) {
+function newName (nameInput) {
   getNotesForName1(nameInput);
   getNotesForName2(nameInput);
   console.log(nameInput);
