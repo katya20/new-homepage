@@ -26,7 +26,7 @@ function newName (e, nameInput) {
   e.preventDefault();
   $("#output1").html("");
   $("#output2").html("");
-  $("#greeting").append(nameInput);   
+  $("#greeting").append("Hello, " + nameInput);   
 }
 
 
