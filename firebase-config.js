@@ -22,7 +22,6 @@ function newName (e, nameInput) {
   getNotesForName1(nameInput);
   getNotesForName2(nameInput);
   console.log(nameInput);
-
   e.preventDefault();
   $("#output1").html("");
   $("#output2").html("");
