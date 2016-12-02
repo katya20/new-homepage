@@ -12,8 +12,7 @@ var store = firebase.database().ref("challenge-2")
 
 function popUp() {
   var person = prompt("Please enter your name to save your data :)", "Harry Potter");
-  if (person != null) {
-    
+  if (person != null) {   
     newName(person);
   }
 }
@@ -23,7 +22,6 @@ function newName (nameInput) {
   getNotesForName1(nameInput);
   getNotesForName2(nameInput);
   console.log(nameInput);
-  e.preventDefault();
   $("#output1").html("");
   $("#output2").html("");
   $("#greeting").append("Hello, " + nameInput);   
