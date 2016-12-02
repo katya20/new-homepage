@@ -24,6 +24,11 @@ nameInput.keydown(function(e) {
   }	 
 })
 
+if (nameInput.val().length==0) {
+  console.log("no name")
+  popUp();
+}
+
 
 // To Do List (today)
 
