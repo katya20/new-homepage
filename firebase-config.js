@@ -24,7 +24,8 @@ function newName (nameInput) {
   console.log(nameInput);
   $("#output1").html("");
   $("#output2").html("");
-  $("#greeting").append("Hello, " + nameInput);   
+  $("#greeting").append("Hello, " + nameInput);
+  nameInput.css({display: "none"})
 }
 
 

@@ -25,10 +25,6 @@ nameInput.keydown(function(e) {
   }	 
 })
 
-if (nameInput.val().length!==0) {
-  console.log("name is submitted")
-  
-}
 
 
 // To Do List (today)
