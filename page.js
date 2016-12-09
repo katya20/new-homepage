@@ -40,11 +40,12 @@ input1.keydown(function(e) {
       var person = popUp();
       
       if (person != null) {   
-        newName(person);            
+        newName(person);  
+        console.log("personsss", person)
         addListItem(person + "/1", input1.val()); 
       }            
     } else {
-      addListItem(nameInput.val() + "/1", input1.val()); 
+      addListItem(person + "/1", input1.val()); 
     }
 //    $("#output1").append(input1.val());
   }
