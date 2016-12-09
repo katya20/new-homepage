@@ -20,6 +20,8 @@ var nameInput = $("#nameInput");
 
 nameInput.keydown(function(e) {
   if (e.which == 13) {
+    var name = nameInput.val()
+    console.log("this", name)
     newName(nameInput.val());
     e.preventDefault();
   }	 
