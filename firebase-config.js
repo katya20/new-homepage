@@ -20,6 +20,7 @@ function popUp() {
 
 
 function newName (nameInput) {
+  console.log("getting notes for", nameInput)
   getNotesForName1(nameInput);
   getNotesForName2(nameInput);
   console.log(nameInput);
