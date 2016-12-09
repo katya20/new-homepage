@@ -41,11 +41,12 @@ input1.keydown(function(e) {
       
       if (person != null) {   
         newName(person);
-      }      
-      nameInput.val(person)
-      
-      
-    }           
+        nameInput.val(person)      
+        addListItem(nameInput.val() + "/1", input1.val()); 
+      }            
+    } else {
+      addListItem(nameInput.val() + "/1", input1.val()); 
+    }
 //    $("#output1").append(input1.val());
   }
 })
