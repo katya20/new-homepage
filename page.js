@@ -37,9 +37,8 @@ input1.keydown(function(e) {
 
   if (e.keyCode == "13") {
     if (nameInput.val().length==0) {
-      console.log("no name")
       popUp();
-    }
+    }       
     addListItem(nameInput.val() + "/1", input1.val()); 
     console.log("input1 keydown is working");
 //    $("#output1").append(input1.val());
