@@ -40,9 +40,8 @@ input1.keydown(function(e) {
       var person = popUp();
       
       if (person != null) {   
-        newName(person);
-        nameInput.val(person)      
-        addListItem(nameInput.val() + "/1", input1.val()); 
+        newName(person);            
+        addListItem(person + "/1", input1.val()); 
       }            
     } else {
       addListItem(nameInput.val() + "/1", input1.val()); 
