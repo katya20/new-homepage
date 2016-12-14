@@ -67,14 +67,14 @@ function getNotesForName1(name) {
   })
 }
 
-$("body").keydown(function(e) {
-  console.log("hi");
-  if (e.keyCode == 39) {
-    console.log('working');
-    console.log(data.key)
-    deleteValue(person)
-  }
-}
+//$("body").keydown(function(e) {
+//  console.log("hi");
+//  if (e.keyCode == 39) {
+//    console.log('working');
+//    console.log(data.key)
+//    deleteValue(person)
+//  }
+//})
 
 function getNotesForName2(name) {  
   console.log("getNotesForName2")
