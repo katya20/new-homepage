@@ -1,7 +1,7 @@
 var firebaseConfig = {
   apiKey: " AIzaSyD-U1vfBg6sjZdxjgzgNzB97dfFvNrcX38",
-  authDomain: "project-1.firebaseapp.com",
-  databaseURL: "https://project-1.firebaseio.com"	
+  authDomain: "nueva-project-1.firebaseapp.com",
+  databaseURL: "https://nueva-project-1.firebaseio.com"	
 };
 
 firebase.initializeApp(firebaseConfig);
