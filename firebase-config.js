@@ -64,7 +64,10 @@ function getNotesForName1(name) {
   onNewListItem(name + "/1", function(note) {
     var el = $("<div>" + note + "</div>")
     $(".output1").append(el)
-    el.click(f
+    el.click(function() {
+      el.remove()      
+      //delet note.id from firebase
+    })
   })
 }
 
