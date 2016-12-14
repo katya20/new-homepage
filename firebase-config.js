@@ -62,7 +62,9 @@ function onNewValue(name, callback) {
 function getNotesForName1(name) {  
   console.log("getNotesForName1")
   onNewListItem(name + "/1", function(note) {
-    $(".output1").append("<div>" + note + "</div>")
+    var el = $("<div>" + note + "</div>")
+    $(".output1").append(el)
+    el.click(f
   })
 }
 
@@ -70,7 +72,7 @@ $("body").keydown(function(e) {
   console.log("hi");
   if (e.keyCode == 39) {
     console.log('working');
-    console.log(data.key)
+    console.log(data.key);
     deleteValue(data.key)
   }
 })
