@@ -42,7 +42,7 @@ function addListItem(name, value) {
 
 function onNewListItem(name, callback) {		
   store.child("vars" + "/" + name).on("child_added", function(data) {
-    console.log(data.key)
+//    console.log(data.key)
     callback(data.val())
   })
 }
@@ -71,9 +71,10 @@ $("body").keydown(function(e) {
   console.log("hi");
   if (e.keyCode == 39) {
     console.log('working');
-    console.log(date.key)
-
+    console.log(data.key)
+    deleteValue(person)
   }
+}
 
 function getNotesForName2(name) {  
   console.log("getNotesForName2")
