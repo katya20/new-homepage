@@ -32,7 +32,7 @@ nameInput.keydown(function(e) {
 var input1 = $("#checkbox1")
 
 
-
+var person;
 input1.keydown(function(e) {
   if (e.keyCode == "13") {
     if (!person) {
