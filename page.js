@@ -46,6 +46,7 @@ input1.keydown(function(e) {
     } else {
       addListItem(person + "/1", input1.val()); 
     }
+    input1.val('');
 //    $("#output1").append(input1.val());
   }
 })
