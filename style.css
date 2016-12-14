@@ -54,6 +54,7 @@ Today
 */
 .output1 {
   font-size: 13px;
+  cursor: pointer;
 }
 
 .list {
