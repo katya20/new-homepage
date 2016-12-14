@@ -47,8 +47,8 @@ function onNewListItem(name, callback) {
   })
 }
 //name+ "/1/" + id +"/"
-function deleteValue(id) {	
-  store.child("vars" + "/" + name +"/1/" + id).remove()
+function deleteValue(name) {	
+  store.child("vars" + "/" + name +"/1/").remove()
 }
 
 
@@ -65,7 +65,8 @@ function getNotesForName1(name) {
     var el = $("<div>" + note + "</div>")
     $(".output1").append(el)
     el.click(function() {
-      el.remove()      
+      el.remove()  
+      deleteValue(nameInput.val() + "/1")
       //delet note.id from firebase
     })
   })
