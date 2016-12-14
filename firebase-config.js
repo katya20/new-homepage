@@ -43,7 +43,7 @@ function addListItem(name, value) {
 function onNewListItem(name, callback) {		
   store.child("vars" + "/" + name).on("child_added", function(data) {
 //    console.log(data.key)
-    callback(data.val())
+    callback(data.val(), data.key)
   })
 }
 //name+ "/1/" + id +"/"
@@ -66,7 +66,7 @@ function getNotesForName1(name) {
     $(".output1").append(el)
     el.click(function() {
       el.remove()  
-      deleteValue(nameInput.val() + "/1")
+      deleteValue(data.key + "/1")
       //delet note.id from firebase
     })
   })
