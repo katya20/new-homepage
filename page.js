@@ -35,11 +35,11 @@ var input1 = $("#checkbox1")
 
 input1.keydown(function(e) {
   if (e.keyCode == "13") {
-    if (nnam) {
+    if (!person) {
       var newPerson = popUp();
       
       if (newPerson != null) {   
-        newName(person);  
+        newName(newPerson);  
         console.log("personsss", person)
         addListItem(person + "/1", input1.val()); 
       }            
