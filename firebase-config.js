@@ -61,12 +61,12 @@ function onNewValue(name, callback) {
 
 function getNotesForName1(name) {  
   console.log("getNotesForName1")
-  onNewListItem(name + "/1", function(note) {
+  onNewListItem(name + "/1", function(note, id) {
     var el = $("<div>" + note + "</div>")
     $(".output1").append(el)
     el.click(function() {
       el.remove()  
-      deleteValue(data.key + "/1")
+      deleteValue(id + "/1")
       //delet note.id from firebase
     })
   })
