@@ -46,7 +46,7 @@ function onNewListItem(name, callback) {
     callback(data.val())
   })
 }
-name+ "/1/" + id +"/"
+//name+ "/1/" + id +"/"
 function deleteValue(name) {	
   store.child("vars" + "/" + name +"/1/" + id).remove()
 }
