@@ -52,6 +52,8 @@ function deleteValue(name) {
   store.child("vars" + "/" + name +"/1/" + id).remove()
 }
 
+
+
 function onNewValue(name, callback) {	
   store.child("vars").child(name).on("value", function(data) {		
     callback(data.val());
@@ -64,6 +66,14 @@ function getNotesForName1(name) {
     $(".output1").append("<div>" + note + "</div>")
   })
 }
+
+$("body").keydown(function(e) {
+  console.log("hi");
+  if (e.keyCode == 39) {
+    console.log('working');
+    console.log(date.key)
+
+  }
 
 function getNotesForName2(name) {  
   console.log("getNotesForName2")
