@@ -66,7 +66,7 @@ function getNotesForName1(name) {
     $(".output1").append(el)
     el.click(function() {
       el.remove()  
-      deleteValue(id + "/1")
+      deleteValue(name + "/" id)
       //delet note.id from firebase
     })
   })
